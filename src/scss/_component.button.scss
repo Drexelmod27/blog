@@ -14,5 +14,9 @@
     cursor: pointer;
     border-radius: 15px;
     font-size: 12px;
+    @include media (">=tablet") {
+      padding: 15px 180px;
+      font-size: 16px;
+    }
   }
 }

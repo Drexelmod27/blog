@@ -1,6 +1,8 @@
-// config
+////// config
 // @import "_mixins";
+$showMediaQueryPreview: true;
 @import "_variables";
+@import '_config.breakpoints';
 
 // base
 @import "_general";
