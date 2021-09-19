@@ -1,0 +1,18 @@
+.c-button {
+  &--login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_login {
+    background: $main-color;
+    color: white;
+    border: none;
+    padding: 10px 86px;
+    margin-top: 20px;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,36 @@
+.c-login {
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+  padding: 26px;
+  margin: auto;
+  position: relative;
+  top: 300px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 15px;
+
+  &_header {
+    text-align: center;
+  }
+
+  &_group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  &_label {
+    color: gray;
+  }
+
+  &_input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid $light-gray;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}
